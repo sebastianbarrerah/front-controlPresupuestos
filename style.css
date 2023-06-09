@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightslategrey;
+}
+
+.tabla {
+  width: 35%;
+  height: 300px;
+  border: 1px solid rgb(26, 26, 26);
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(83, 224, 170);
+  border: none;
+  margin-left: 33%;
+  margin-top: 6%;
+  padding: 10px;
+}
+
+.tabla th {
+  font-size: 21px;
+  color: rgb(250, 7, 56);
+  text-decoration: underline;
+  border: 1px solid rgb(26, 26, 26);
+}
+
+tbody {
+  font-size: 18px;
+}
+td {
+  border: 1px solid rgb(26, 26, 26);
+}
+h1{
+    text-align: center;
+    color: rgb(202, 250, 7);
+}
+.borrar{
+    cursor: pointer;
+    background-color: brown;
+}
+#Agregar{
+  text-align: center;
+  margin-left: 48%;
+  margin-top: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  color: rgb(250, 7, 56);
+  background-color: rgb(202, 250, 7);
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#Agregar:hover{
+  background-color: rgb(54, 89, 154);
+}
